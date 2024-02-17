@@ -1,0 +1,9 @@
+management:
+  endpoints:
+    health:
+      enabled: true
+    web:
+      exposure:
+        include: "*"
+
+
